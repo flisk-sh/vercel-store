@@ -1,0 +1,828 @@
+{
+  "origin": "https://vercel.store",
+  "syncedAt": "2026-10-16T23:33:41.412Z",
+  "products": [
+    {
+      "handle": "chore-coat-black",
+      "url": "https://vercel.store/products/chore-coat-black",
+      "title": "Black Canvas Chore Coat",
+      "description": "A workwear staple, refined through Vercel’s design language. Heavyweight black cotton canvas is paired with a custom radial lining, metal hardware, and utility pockets. Turned cuffs reveal the pattern beneath, while a hidden terminal graphic under the collar nods to the way we build. Finished with a tonal embroidered triangle at the chest. Details 100% cotton canvas, 10 oz. Button-front closure with adjustable cuffs Interior pocket and straight hem",
+      "options": [
+        {
+          "name": "Color",
+          "values": [
+            "Black"
+          ]
+        },
+        {
+          "name": "Size",
+          "values": [
+            "S",
+            "M",
+            "L",
+            "XL",
+            "2XL"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "54532976017721",
+          "title": "Black / S",
+          "available": false,
+          "price": 265,
+          "currency": "USD",
+          "options": {
+            "Color": "Black",
+            "Size": "S"
+          },
+          "image": "https://cdn.shopify.com/s/files/1/0716/2147/6665/files/IE1759-00389-PARENT_Black-Canvas-Chore-Coat_front-flatlay_cb190d47-352d-4c97-b119-d453686586dd.webp?v=1792068609"
+        },
+        {
+          "id": "54532976050489",
+          "title": "Black / M",
+          "available": false,
+          "price": 265,
+          "currency": "USD",
+          "options": {
+            "Color": "Black",
+            "Size": "M"
+          },
+          "image": "https://cdn.shopify.com/s/files/1/0716/2147/6665/files/IE1759-00389-PARENT_Black-Canvas-Chore-Coat_front-flatlay_cb190d47-352d-4c97-b119-d453686586dd.webp?v=1792068609"
+        },
+        {
+          "id": "54532976083257",
+          "title": "Black / L",
+          "available": false,
+          "price": 265,
+          "currency": "USD",
+          "options": {
+            "Color": "Black",
+            "Size": "L"
+          },
+          "image": "https://cdn.shopify.com/s/files/1/0716/2147/6665/files/IE1759-00389-PARENT_Black-Canvas-Chore-Coat_front-flatlay_cb190d47-352d-4c97-b119-d453686586dd.webp?v=1792068609"
+        },
+        {
+          "id": "54532976116025",
+          "title": "Black / XL",
+          "available": false,
+          "price": 265,
+          "currency": "USD",
+          "options": {
+            "Color": "Black",
+            "Size": "XL"
+          },
+          "image": "https://cdn.shopify.com/s/files/1/0716/2147/6665/files/IE1759-00389-PARENT_Black-Canvas-Chore-Coat_front-flatlay_cb190d47-352d-4c97-b119-d453686586dd.webp?v=1792068609"
+        },
+        {
+          "id": "54532976148793",
+          "title": "Black / 2XL",
+          "available": false,
+          "price": 265,
+          "currency": "USD",
+          "options": {
+            "Color": "Black",
+            "Size": "2XL"
+          },
+          "image": "https://cdn.shopify.com/s/files/1/0716/2147/6665/files/IE1759-00389-PARENT_Black-Canvas-Chore-Coat_front-flatlay_cb190d47-352d-4c97-b119-d453686586dd.webp?v=1792068609"
+        }
+      ]
+    },
+    {
+      "handle": "geist-race-poster",
+      "url": "https://vercel.store/products/geist-race-poster",
+      "title": "Geist Racing Club Print",
+      "description": "Geist enters the Racing Club. An oversized custom wordmark takes over the frame, paired with VRC iconography and stripped-back race graphics. Details 24 × 36 in. Premium heavyweight paper Matte, archival-quality print Unframed",
+      "options": [
+        {
+          "name": "Title",
+          "values": [
+            "Default Title"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "67618106474809",
+          "title": "Default Title",
+          "available": true,
+          "price": 15,
+          "currency": "USD",
+          "options": {
+            "Title": "Default Title"
+          },
+          "image": "https://cdn.shopify.com/s/files/1/0716/2147/6665/files/geist-poster.png?v=1792069250"
+        }
+      ]
+    },
+    {
+      "handle": "versatile-acceleration-spray-paint-hat-black",
+      "url": "https://vercel.store/products/versatile-acceleration-spray-paint-hat-black",
+      "title": "Origin Cap — Black",
+      "description": "A wearable piece of Vercel’s origin story. Versatile Acceleration, the words behind the Vercel name, is rendered in script across the front, with a minimal vercel.com graphic at the back. Details Structured six-panel performance construction Curved visor with moisture-managing sweatband Adjustable snapback closure Stain-resistant, water-repellent finish Seamless bonded construction",
+      "options": [
+        {
+          "name": "Title",
+          "values": [
+            "Default Title"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "67618183414073",
+          "title": "Default Title",
+          "available": true,
+          "price": 30,
+          "currency": "USD",
+          "options": {
+            "Title": "Default Title"
+          },
+          "image": "https://cdn.shopify.com/s/files/1/0716/2147/6665/files/IE1759-00408_Origin-Cap-Black_front-flatlay_aaaf4eb8-0291-41f1-b1c6-ab0a77e866a8.webp?v=1792068182"
+        }
+      ]
+    },
+    {
+      "handle": "versatile-acceleration-poster",
+      "url": "https://vercel.store/products/versatile-acceleration-poster",
+      "title": "Origin Print",
+      "description": "A graphic study of the origin of Vercel’s name. Versatile Acceleration takes center stage, introducing the idea behind the name through the visual language of the Origin Line. Details 24 × 36 in. Premium heavyweight paper Matte, archival-quality print Unframed",
+      "options": [
+        {
+          "name": "Title",
+          "values": [
+            "Default Title"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "67618183807289",
+          "title": "Default Title",
+          "available": true,
+          "price": 15,
+          "currency": "USD",
+          "options": {
+            "Title": "Default Title"
+          },
+          "image": "https://cdn.shopify.com/s/files/1/0716/2147/6665/files/origin-poster.png?v=1792069201"
+        }
+      ]
+    },
+    {
+      "handle": "t-shirt",
+      "url": "https://vercel.store/products/t-shirt",
+      "title": "Origin Tee — Burst",
+      "description": "A graphic study of the origin of Vercel's name. Versatile Acceleration appears as a minimal front mark and a burst of motion across the back. Details 100% organic cotton, 240 gsm Made in Portugal Unisex regular fit",
+      "options": [
+        {
+          "name": "Color",
+          "values": [
+            "Black"
+          ]
+        },
+        {
+          "name": "Size",
+          "values": [
+            "XS",
+            "S",
+            "M",
+            "L",
+            "XL",
+            "2XL"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "67618114896185",
+          "title": "Black / XS",
+          "available": true,
+          "price": 40,
+          "currency": "USD",
+          "options": {
+            "Color": "Black",
+            "Size": "XS"
+          },
+          "image": "https://cdn.shopify.com/s/files/1/0716/2147/6665/files/IE1759-00406-PARENT_Origin-Tee-Burst_group-flatlay_1662f95c-ecba-4ff5-9444-908ab9e31a30.webp?v=1792068289"
+        },
+        {
+          "id": "67618114928953",
+          "title": "Black / S",
+          "available": true,
+          "price": 40,
+          "currency": "USD",
+          "options": {
+            "Color": "Black",
+            "Size": "S"
+          },
+          "image": "https://cdn.shopify.com/s/files/1/0716/2147/6665/files/IE1759-00406-PARENT_Origin-Tee-Burst_group-flatlay_1662f95c-ecba-4ff5-9444-908ab9e31a30.webp?v=1792068289"
+        },
+        {
+          "id": "67618114961721",
+          "title": "Black / M",
+          "available": true,
+          "price": 40,
+          "currency": "USD",
+          "options": {
+            "Color": "Black",
+            "Size": "M"
+          },
+          "image": "https://cdn.shopify.com/s/files/1/0716/2147/6665/files/IE1759-00406-PARENT_Origin-Tee-Burst_group-flatlay_1662f95c-ecba-4ff5-9444-908ab9e31a30.webp?v=1792068289"
+        },
+        {
+          "id": "67618114994489",
+          "title": "Black / L",
+          "available": true,
+          "price": 40,
+          "currency": "USD",
+          "options": {
+            "Color": "Black",
+            "Size": "L"
+          },
+          "image": "https://cdn.shopify.com/s/files/1/0716/2147/6665/files/IE1759-00406-PARENT_Origin-Tee-Burst_group-flatlay_1662f95c-ecba-4ff5-9444-908ab9e31a30.webp?v=1792068289"
+        },
+        {
+          "id": "67618115027257",
+          "title": "Black / XL",
+          "available": true,
+          "price": 40,
+          "currency": "USD",
+          "options": {
+            "Color": "Black",
+            "Size": "XL"
+          },
+          "image": "https://cdn.shopify.com/s/files/1/0716/2147/6665/files/IE1759-00406-PARENT_Origin-Tee-Burst_group-flatlay_1662f95c-ecba-4ff5-9444-908ab9e31a30.webp?v=1792068289"
+        },
+        {
+          "id": "67618115060025",
+          "title": "Black / 2XL",
+          "available": true,
+          "price": 40,
+          "currency": "USD",
+          "options": {
+            "Color": "Black",
+            "Size": "2XL"
+          },
+          "image": "https://cdn.shopify.com/s/files/1/0716/2147/6665/files/IE1759-00406-PARENT_Origin-Tee-Burst_group-flatlay_1662f95c-ecba-4ff5-9444-908ab9e31a30.webp?v=1792068289"
+        }
+      ]
+    },
+    {
+      "handle": "triangle-wavy-tee",
+      "url": "https://vercel.store/products/triangle-wavy-tee",
+      "title": "Origin Tee — Fluid",
+      "description": "A graphic study of the origin of Vercel’s name. Versatile Acceleration appears as a minimal front mark and a fluid interpretation of the triangle across the back. Details 100% organic cotton, 240 gsm Made in Portugal Unisex oversized, boxy fit",
+      "options": [
+        {
+          "name": "Color",
+          "values": [
+            "Black"
+          ]
+        },
+        {
+          "name": "Size",
+          "values": [
+            "XS",
+            "S",
+            "M",
+            "L",
+            "XL",
+            "2XL"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "67618123284793",
+          "title": "Black / XS",
+          "available": true,
+          "price": 40,
+          "currency": "USD",
+          "options": {
+            "Color": "Black",
+            "Size": "XS"
+          },
+          "image": "https://cdn.shopify.com/s/files/1/0716/2147/6665/files/IE1759-00407-PARENT_Origin-Tee-Fluid_group-flatlay_0fb40a04-a1fc-4377-bb5c-9c5880fe0855.webp?v=1792068248"
+        },
+        {
+          "id": "67618123317561",
+          "title": "Black / S",
+          "available": true,
+          "price": 40,
+          "currency": "USD",
+          "options": {
+            "Color": "Black",
+            "Size": "S"
+          },
+          "image": "https://cdn.shopify.com/s/files/1/0716/2147/6665/files/IE1759-00407-PARENT_Origin-Tee-Fluid_group-flatlay_0fb40a04-a1fc-4377-bb5c-9c5880fe0855.webp?v=1792068248"
+        },
+        {
+          "id": "67618123350329",
+          "title": "Black / M",
+          "available": true,
+          "price": 40,
+          "currency": "USD",
+          "options": {
+            "Color": "Black",
+            "Size": "M"
+          },
+          "image": "https://cdn.shopify.com/s/files/1/0716/2147/6665/files/IE1759-00407-PARENT_Origin-Tee-Fluid_group-flatlay_0fb40a04-a1fc-4377-bb5c-9c5880fe0855.webp?v=1792068248"
+        },
+        {
+          "id": "67618123383097",
+          "title": "Black / L",
+          "available": true,
+          "price": 40,
+          "currency": "USD",
+          "options": {
+            "Color": "Black",
+            "Size": "L"
+          },
+          "image": "https://cdn.shopify.com/s/files/1/0716/2147/6665/files/IE1759-00407-PARENT_Origin-Tee-Fluid_group-flatlay_0fb40a04-a1fc-4377-bb5c-9c5880fe0855.webp?v=1792068248"
+        },
+        {
+          "id": "67618123415865",
+          "title": "Black / XL",
+          "available": true,
+          "price": 40,
+          "currency": "USD",
+          "options": {
+            "Color": "Black",
+            "Size": "XL"
+          },
+          "image": "https://cdn.shopify.com/s/files/1/0716/2147/6665/files/IE1759-00407-PARENT_Origin-Tee-Fluid_group-flatlay_0fb40a04-a1fc-4377-bb5c-9c5880fe0855.webp?v=1792068248"
+        },
+        {
+          "id": "67618123448633",
+          "title": "Black / 2XL",
+          "available": true,
+          "price": 40,
+          "currency": "USD",
+          "options": {
+            "Color": "Black",
+            "Size": "2XL"
+          },
+          "image": "https://cdn.shopify.com/s/files/1/0716/2147/6665/files/IE1759-00407-PARENT_Origin-Tee-Fluid_group-flatlay_0fb40a04-a1fc-4377-bb5c-9c5880fe0855.webp?v=1792068248"
+        }
+      ]
+    },
+    {
+      "handle": "jumpsuit",
+      "url": "https://vercel.store/products/jumpsuit",
+      "title": "Utility Jumpsuit",
+      "description": "A stripped-back take on classic workwear. Clean lines and minimal detailing keep the focus on the silhouette, finished with a black Vercel triangle and vercel.com graphic. Wear it as-is or build on it with patches over time. Details 100% cotton Full-length, long-sleeve construction Utility chest, hip, and back pockets",
+      "options": [
+        {
+          "name": "Color",
+          "values": [
+            "White"
+          ]
+        },
+        {
+          "name": "Size",
+          "values": [
+            "S",
+            "M",
+            "L",
+            "XL",
+            "2XL"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "54532979917113",
+          "title": "White / S",
+          "available": false,
+          "price": 200,
+          "currency": "USD",
+          "options": {
+            "Color": "White",
+            "Size": "S"
+          },
+          "image": "https://cdn.shopify.com/s/files/1/0716/2147/6665/files/IE1759-00391-PARENT_Utility-Jumpsuit_front-flatlay_7fc324dd-c05e-4e84-818c-c19b8e4f0eaa.webp?v=1792068514"
+        },
+        {
+          "id": "54532979949881",
+          "title": "White / M",
+          "available": false,
+          "price": 200,
+          "currency": "USD",
+          "options": {
+            "Color": "White",
+            "Size": "M"
+          },
+          "image": "https://cdn.shopify.com/s/files/1/0716/2147/6665/files/IE1759-00391-PARENT_Utility-Jumpsuit_front-flatlay_7fc324dd-c05e-4e84-818c-c19b8e4f0eaa.webp?v=1792068514"
+        },
+        {
+          "id": "54532979982649",
+          "title": "White / L",
+          "available": false,
+          "price": 200,
+          "currency": "USD",
+          "options": {
+            "Color": "White",
+            "Size": "L"
+          },
+          "image": "https://cdn.shopify.com/s/files/1/0716/2147/6665/files/IE1759-00391-PARENT_Utility-Jumpsuit_front-flatlay_7fc324dd-c05e-4e84-818c-c19b8e4f0eaa.webp?v=1792068514"
+        },
+        {
+          "id": "54532980015417",
+          "title": "White / XL",
+          "available": false,
+          "price": 200,
+          "currency": "USD",
+          "options": {
+            "Color": "White",
+            "Size": "XL"
+          },
+          "image": "https://cdn.shopify.com/s/files/1/0716/2147/6665/files/IE1759-00391-PARENT_Utility-Jumpsuit_front-flatlay_7fc324dd-c05e-4e84-818c-c19b8e4f0eaa.webp?v=1792068514"
+        },
+        {
+          "id": "54532980048185",
+          "title": "White / 2XL",
+          "available": false,
+          "price": 200,
+          "currency": "USD",
+          "options": {
+            "Color": "White",
+            "Size": "2XL"
+          },
+          "image": "https://cdn.shopify.com/s/files/1/0716/2147/6665/files/IE1759-00391-PARENT_Utility-Jumpsuit_front-flatlay_7fc324dd-c05e-4e84-818c-c19b8e4f0eaa.webp?v=1792068514"
+        }
+      ]
+    },
+    {
+      "handle": "vrc-grain-poster",
+      "url": "https://vercel.store/products/vrc-grain-poster",
+      "title": "VRC Grain Print",
+      "description": "Vercel Racing Club, reduced to atmosphere. A grain-heavy composition pulls VRC and Geist into the visual language of speed, track culture, and performance. Details 24 × 36 in. Premium heavyweight paper Matte, archival-quality print Unframed",
+      "options": [
+        {
+          "name": "Title",
+          "values": [
+            "Default Title"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "67618103656761",
+          "title": "Default Title",
+          "available": true,
+          "price": 15,
+          "currency": "USD",
+          "options": {
+            "Title": "Default Title"
+          },
+          "image": "https://cdn.shopify.com/s/files/1/0716/2147/6665/files/grain-poster.png?v=1792069273"
+        }
+      ]
+    },
+    {
+      "handle": "pit-crew-jumpsuit",
+      "url": "https://vercel.store/products/pit-crew-jumpsuit",
+      "title": "VRC Pit Crew Jumpsuit",
+      "description": "A core piece in the Vercel Racing Club apparel system. Built from the visual language of pit crew uniforms, with heavyweight denim, contrast piping, and custom VRC and product graphics throughout. Oversized back detailing and graphics across the sleeves and legs carry the Racing Club concept from top to bottom. Details 100% cotton Full-length zip-front construction with long sleeves Utility chest, side, and back pockets with belt loops at the waist",
+      "options": [
+        {
+          "name": "Size",
+          "values": [
+            "S",
+            "M",
+            "L",
+            "XL",
+            "2XL"
+          ]
+        },
+        {
+          "name": "Color",
+          "values": [
+            "Black"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "54532981326137",
+          "title": "S / Black",
+          "available": true,
+          "price": 200,
+          "currency": "USD",
+          "options": {
+            "Size": "S",
+            "Color": "Black"
+          },
+          "image": "https://cdn.shopify.com/s/files/1/0716/2147/6665/files/IE1759-00392-PARENT_VRC-Pit-Crew-Jumpsuit_front-flatlay_1101ddbf-985d-4578-baf1-6e3198b15687.webp?v=1792068464"
+        },
+        {
+          "id": "54532981358905",
+          "title": "M / Black",
+          "available": true,
+          "price": 200,
+          "currency": "USD",
+          "options": {
+            "Size": "M",
+            "Color": "Black"
+          },
+          "image": "https://cdn.shopify.com/s/files/1/0716/2147/6665/files/IE1759-00392-PARENT_VRC-Pit-Crew-Jumpsuit_front-flatlay_1101ddbf-985d-4578-baf1-6e3198b15687.webp?v=1792068464"
+        },
+        {
+          "id": "54532981391673",
+          "title": "L / Black",
+          "available": true,
+          "price": 200,
+          "currency": "USD",
+          "options": {
+            "Size": "L",
+            "Color": "Black"
+          },
+          "image": "https://cdn.shopify.com/s/files/1/0716/2147/6665/files/IE1759-00392-PARENT_VRC-Pit-Crew-Jumpsuit_front-flatlay_1101ddbf-985d-4578-baf1-6e3198b15687.webp?v=1792068464"
+        },
+        {
+          "id": "54532981424441",
+          "title": "XL / Black",
+          "available": true,
+          "price": 200,
+          "currency": "USD",
+          "options": {
+            "Size": "XL",
+            "Color": "Black"
+          },
+          "image": "https://cdn.shopify.com/s/files/1/0716/2147/6665/files/IE1759-00392-PARENT_VRC-Pit-Crew-Jumpsuit_front-flatlay_1101ddbf-985d-4578-baf1-6e3198b15687.webp?v=1792068464"
+        },
+        {
+          "id": "54532981457209",
+          "title": "2XL / Black",
+          "available": true,
+          "price": 200,
+          "currency": "USD",
+          "options": {
+            "Size": "2XL",
+            "Color": "Black"
+          },
+          "image": "https://cdn.shopify.com/s/files/1/0716/2147/6665/files/IE1759-00392-PARENT_VRC-Pit-Crew-Jumpsuit_front-flatlay_1101ddbf-985d-4578-baf1-6e3198b15687.webp?v=1792068464"
+        }
+      ]
+    },
+    {
+      "handle": "quilted-racing-jacket",
+      "url": "https://vercel.store/products/quilted-racing-jacket",
+      "title": "VRC Quilted Racing Jacket",
+      "description": "The flagship piece of the Vercel Racing Club apparel line. Built from the visual language of classic motorsport, with a structured nylon shell and quilted lining. VRC and custom stylized product graphics, contrast piping, and oversized back detailing bring the full Racing Club concept to life. Details 100% nylon Full-length zip closure Ribbed collar, cuffs, and hem Integrated side and interior pockets",
+      "options": [
+        {
+          "name": "Size",
+          "values": [
+            "S",
+            "M",
+            "L",
+            "XL",
+            "2XL"
+          ]
+        },
+        {
+          "name": "Color",
+          "values": [
+            "Black"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "54532989157689",
+          "title": "S / Black",
+          "available": true,
+          "price": 325,
+          "currency": "USD",
+          "options": {
+            "Size": "S",
+            "Color": "Black"
+          },
+          "image": "https://cdn.shopify.com/s/files/1/0716/2147/6665/files/IE1759-00393-PARENT_VRC-Quilted-Racing-Jacket_front-flatlay_ee00ea5c-56ed-4961-9652-92774310b04c.webp?v=1792068417"
+        },
+        {
+          "id": "54532989190457",
+          "title": "M / Black",
+          "available": true,
+          "price": 325,
+          "currency": "USD",
+          "options": {
+            "Size": "M",
+            "Color": "Black"
+          },
+          "image": "https://cdn.shopify.com/s/files/1/0716/2147/6665/files/IE1759-00393-PARENT_VRC-Quilted-Racing-Jacket_front-flatlay_ee00ea5c-56ed-4961-9652-92774310b04c.webp?v=1792068417"
+        },
+        {
+          "id": "54532989223225",
+          "title": "L / Black",
+          "available": true,
+          "price": 325,
+          "currency": "USD",
+          "options": {
+            "Size": "L",
+            "Color": "Black"
+          },
+          "image": "https://cdn.shopify.com/s/files/1/0716/2147/6665/files/IE1759-00393-PARENT_VRC-Quilted-Racing-Jacket_front-flatlay_ee00ea5c-56ed-4961-9652-92774310b04c.webp?v=1792068417"
+        },
+        {
+          "id": "54532989255993",
+          "title": "XL / Black",
+          "available": true,
+          "price": 325,
+          "currency": "USD",
+          "options": {
+            "Size": "XL",
+            "Color": "Black"
+          },
+          "image": "https://cdn.shopify.com/s/files/1/0716/2147/6665/files/IE1759-00393-PARENT_VRC-Quilted-Racing-Jacket_front-flatlay_ee00ea5c-56ed-4961-9652-92774310b04c.webp?v=1792068417"
+        },
+        {
+          "id": "54532989288761",
+          "title": "2XL / Black",
+          "available": true,
+          "price": 325,
+          "currency": "USD",
+          "options": {
+            "Size": "2XL",
+            "Color": "Black"
+          },
+          "image": "https://cdn.shopify.com/s/files/1/0716/2147/6665/files/IE1759-00393-PARENT_VRC-Quilted-Racing-Jacket_front-flatlay_ee00ea5c-56ed-4961-9652-92774310b04c.webp?v=1792068417"
+        }
+      ]
+    },
+    {
+      "handle": "racing-jacket",
+      "url": "https://vercel.store/products/racing-jacket",
+      "title": "VRC Unlined Racing Jacket",
+      "description": "A lighter expression of the Vercel Racing Club jacket. Built from the same motorsport language as the quilted version, with an unlined nylon shell for easier layering and everyday wear. VRC and custom stylized product graphics, contrast piping, and oversized back detailing carry the full Racing Club concept in a lighter-weight form. Details 100% nylon Full-length zip closure Ribbed collar, cuffs, and hem Integrated side and interior pockets",
+      "options": [
+        {
+          "name": "Size",
+          "values": [
+            "S",
+            "M",
+            "L",
+            "XL",
+            "2XL"
+          ]
+        },
+        {
+          "name": "Color",
+          "values": [
+            "Black"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "54532991385913",
+          "title": "S / Black",
+          "available": true,
+          "price": 325,
+          "currency": "USD",
+          "options": {
+            "Size": "S",
+            "Color": "Black"
+          },
+          "image": "https://cdn.shopify.com/s/files/1/0716/2147/6665/files/IE1759-00394-PARENT_VRC-Unlined-Racing-Jacket_front-flatlay_1deb01e8-f840-48d1-bd5c-0b38fd218762.webp?v=1792068335"
+        },
+        {
+          "id": "54532991418681",
+          "title": "M / Black",
+          "available": true,
+          "price": 325,
+          "currency": "USD",
+          "options": {
+            "Size": "M",
+            "Color": "Black"
+          },
+          "image": "https://cdn.shopify.com/s/files/1/0716/2147/6665/files/IE1759-00394-PARENT_VRC-Unlined-Racing-Jacket_front-flatlay_1deb01e8-f840-48d1-bd5c-0b38fd218762.webp?v=1792068335"
+        },
+        {
+          "id": "54532991451449",
+          "title": "L / Black",
+          "available": true,
+          "price": 325,
+          "currency": "USD",
+          "options": {
+            "Size": "L",
+            "Color": "Black"
+          },
+          "image": "https://cdn.shopify.com/s/files/1/0716/2147/6665/files/IE1759-00394-PARENT_VRC-Unlined-Racing-Jacket_front-flatlay_1deb01e8-f840-48d1-bd5c-0b38fd218762.webp?v=1792068335"
+        },
+        {
+          "id": "54532991484217",
+          "title": "XL / Black",
+          "available": true,
+          "price": 325,
+          "currency": "USD",
+          "options": {
+            "Size": "XL",
+            "Color": "Black"
+          },
+          "image": "https://cdn.shopify.com/s/files/1/0716/2147/6665/files/IE1759-00394-PARENT_VRC-Unlined-Racing-Jacket_front-flatlay_1deb01e8-f840-48d1-bd5c-0b38fd218762.webp?v=1792068335"
+        },
+        {
+          "id": "54532991516985",
+          "title": "2XL / Black",
+          "available": true,
+          "price": 325,
+          "currency": "USD",
+          "options": {
+            "Size": "2XL",
+            "Color": "Black"
+          },
+          "image": "https://cdn.shopify.com/s/files/1/0716/2147/6665/files/IE1759-00394-PARENT_VRC-Unlined-Racing-Jacket_front-flatlay_1deb01e8-f840-48d1-bd5c-0b38fd218762.webp?v=1792068335"
+        }
+      ]
+    },
+    {
+      "handle": "chore-coat-white",
+      "url": "https://vercel.store/products/chore-coat-white",
+      "title": "White Canvas Chore Coat",
+      "description": "A study in contrast. Heavyweight white cotton canvas with a custom black lining, metal hardware, and oversized utility pockets. Turned cuffs reveal the radial pattern beneath, while a hidden terminal graphic sits under the collar. A tonal embroidered Vercel triangle finishes the chest. Details 100% cotton canvas, 10 oz. Button-front closure with adjustable cuffs Interior pocket and straight hem",
+      "options": [
+        {
+          "name": "Color",
+          "values": [
+            "White"
+          ]
+        },
+        {
+          "name": "Size",
+          "values": [
+            "S",
+            "M",
+            "L",
+            "XL",
+            "2XL"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "54532977754425",
+          "title": "White / S",
+          "available": false,
+          "price": 265,
+          "currency": "USD",
+          "options": {
+            "Color": "White",
+            "Size": "S"
+          },
+          "image": "https://cdn.shopify.com/s/files/1/0716/2147/6665/files/IE1759-00390-PARENT_White-Canvas-Chore-Coat_front-flatlay_bb8d662b-5a55-4e74-8606-f109c83d76a0.webp?v=1792068564"
+        },
+        {
+          "id": "54532977787193",
+          "title": "White / M",
+          "available": false,
+          "price": 265,
+          "currency": "USD",
+          "options": {
+            "Color": "White",
+            "Size": "M"
+          },
+          "image": "https://cdn.shopify.com/s/files/1/0716/2147/6665/files/IE1759-00390-PARENT_White-Canvas-Chore-Coat_front-flatlay_bb8d662b-5a55-4e74-8606-f109c83d76a0.webp?v=1792068564"
+        },
+        {
+          "id": "54532977819961",
+          "title": "White / L",
+          "available": false,
+          "price": 265,
+          "currency": "USD",
+          "options": {
+            "Color": "White",
+            "Size": "L"
+          },
+          "image": "https://cdn.shopify.com/s/files/1/0716/2147/6665/files/IE1759-00390-PARENT_White-Canvas-Chore-Coat_front-flatlay_bb8d662b-5a55-4e74-8606-f109c83d76a0.webp?v=1792068564"
+        },
+        {
+          "id": "54532977852729",
+          "title": "White / XL",
+          "available": false,
+          "price": 265,
+          "currency": "USD",
+          "options": {
+            "Color": "White",
+            "Size": "XL"
+          },
+          "image": "https://cdn.shopify.com/s/files/1/0716/2147/6665/files/IE1759-00390-PARENT_White-Canvas-Chore-Coat_front-flatlay_bb8d662b-5a55-4e74-8606-f109c83d76a0.webp?v=1792068564"
+        },
+        {
+          "id": "54532977885497",
+          "title": "White / 2XL",
+          "available": false,
+          "price": 265,
+          "currency": "USD",
+          "options": {
+            "Color": "White",
+            "Size": "2XL"
+          },
+          "image": "https://cdn.shopify.com/s/files/1/0716/2147/6665/files/IE1759-00390-PARENT_White-Canvas-Chore-Coat_front-flatlay_bb8d662b-5a55-4e74-8606-f109c83d76a0.webp?v=1792068564"
+        }
+      ]
+    }
+  ]
+}

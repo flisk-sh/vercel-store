@@ -1,0 +1,16 @@
+{
+  "name": "vercel-store",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "workspaces": [
+    "services/*/*"
+  ],
+  "scripts": {
+    "sync:catalog": "bun scripts/sync-catalog.ts",
+    "dev:local": "bun scripts/dev-local.ts",
+    "test": "bun run --cwd services/store/vercel-bff test && bun run --cwd services/store/storefront-web test",
+    "check": "bun run --cwd services/store/vercel-bff check && bun run --cwd services/store/storefront-web check",
+    "build:local": "bun run --cwd services/store/storefront-web build:local"
+  }
+}

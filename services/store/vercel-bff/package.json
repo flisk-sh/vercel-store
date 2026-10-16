@@ -1,0 +1,21 @@
+{
+  "name": "@vercel-store/vercel-bff",
+  "version": "0.0.1",
+  "type": "module",
+  "scripts": {
+    "dev": "bun --watch src/index.ts",
+    "build": "bun build src/index.ts --target bun --packages external --outdir dist",
+    "start": "bun dist/index.js",
+    "test": "bun test",
+    "check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "hono": "^4.0.0",
+    "zod": "^4.1.0"
+  },
+  "devDependencies": {
+    "@types/bun": "^1.4.2",
+    "@types/node": "^20.0.0",
+    "typescript": "^5.9.0"
+  }
+}

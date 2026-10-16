@@ -1,0 +1,33 @@
+{
+  "port": 4300,
+  "dependsOn": [],
+  "build": {
+    "dockerfile": "Dockerfile",
+    "context": "."
+  },
+  "dev": {
+    "command": "bun run dev",
+    "watch": [
+      "src/**/*"
+    ]
+  },
+  "healthCheckPath": "/health",
+  "$schema": "https://tdk-landscape.github.io/schema.service.json",
+  "schemaVersion": 1,
+  "appName": "vercel-bff",
+  "appType": "backend",
+  "featuresEnabled": [],
+  "name": "vercel-bff",
+  "type": "backend",
+  "stack": "store",
+  "framework": "hono",
+  "params": {
+    "VERCEL_STORE_ORIGIN": "${VERCEL_STORE_ORIGIN:-https://vercel.store}",
+    "STORE_FRONTEND_ORIGIN": "${STORE_FRONTEND_ORIGIN:-}",
+    "STORE_BFF_ORIGIN": "${STORE_BFF_ORIGIN:-}"
+  },
+  "healthCheck": {
+    "enabled": true,
+    "path": "/health"
+  }
+}
