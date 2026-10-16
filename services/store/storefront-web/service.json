@@ -30,6 +30,6 @@
     "path": "/"
   },
   "params": {
-    "VITE_STORE_BFF_URL": "${VITE_STORE_BFF_URL:-}"
+    "VITE_STORE_BFF_URL": ""
   }
 }

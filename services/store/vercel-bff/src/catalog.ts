@@ -1,4 +1,4 @@
-import raw from '../data/catalog.json';
+import raw from './data/catalog.json';
 
 export interface Variant { id: string; title: string; available: boolean; price: number; currency: string; options: Record<string, string>; image: string | null }
 export interface Product { handle: string; url: string; title: string; description: string; options: { name: string; values: string[] }[]; variants: Variant[] }

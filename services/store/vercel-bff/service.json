@@ -22,9 +22,9 @@
   "stack": "store",
   "framework": "hono",
   "params": {
-    "VERCEL_STORE_ORIGIN": "${VERCEL_STORE_ORIGIN:-https://vercel.store}",
-    "STORE_FRONTEND_ORIGIN": "${STORE_FRONTEND_ORIGIN:-}",
-    "STORE_BFF_ORIGIN": "${STORE_BFF_ORIGIN:-}"
+    "VERCEL_STORE_ORIGIN": "https://vercel.store",
+    "STORE_FRONTEND_ORIGIN": "http://app.vercel-store.localhost:8080",
+    "STORE_BFF_ORIGIN": "http://api.vercel-store.localhost:8080"
   },
   "healthCheck": {
     "enabled": true,

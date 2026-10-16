@@ -16,7 +16,7 @@
   },
   "include": [
     "src/**/*",
-    "data/*.json"
+    "src/data/*.json"
   ],
   "exclude": [
     "node_modules",

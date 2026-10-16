@@ -1,0 +1,34 @@
+###############################################################################
+# SYSTEM-GENERATED - DO NOT EDIT
+# Stack feature: database-management
+# Source: .tdk/project.json stacks.*.services includes "database-management"
+###############################################################################
+
+services:
+  postgres:
+    image: postgres:16-alpine
+    container_name: vercel_store_postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: vercel_store
+      POSTGRES_PASSWORD: ${DB_PASSWORD}
+      POSTGRES_DB: postgres
+    ports:
+      - "127.0.0.1:15432:5432"
+    volumes:
+      - vercel_store_postgres_data:/var/lib/postgresql/data
+    networks:
+      - database
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U vercel_store -d postgres"]
+      interval: 5s
+      timeout: 5s
+      retries: 20
+
+networks:
+  database:
+    name: vercel_store_database
+    external: true
+
+volumes:
+  vercel_store_postgres_data:
