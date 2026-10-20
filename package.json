@@ -11,6 +11,12 @@
     "dev:local": "bun scripts/dev-local.ts",
     "test": "bun run --cwd services/store/vercel-bff test && bun run --cwd services/store/storefront-web test",
     "check": "bun run --cwd services/store/vercel-bff check && bun run --cwd services/store/storefront-web check",
-    "build:local": "bun run --cwd services/store/storefront-web build:local"
+    "build:local": "bun run --cwd services/store/storefront-web build:local",
+    "tdk:project": "tdk project --yes",
+    "tdk:dry-run": "tdk up --dry-run",
+    "tdk:up": "tdk up"
+  },
+  "devDependencies": {
+    "@tdk-landscape/tdk-cli-core": "1.3.186"
   }
 }

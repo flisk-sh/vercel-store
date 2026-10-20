@@ -120,3 +120,7 @@ Still stuck? Open an issue on this repo, or ask your agent: *"run `tdk status` a
 ---
 
 Built with [TDK](https://github.com/tdk-landscape) · inspired by [tdk-thor-storefront](https://github.com/tdk-landscape/tdk-thor-storefront) · not affiliated with Vercel.
+
+## Use the repository-pinned TDK CLI
+
+> **Repository-pinned CLI (optional):** Run `bun install` from the repository root to install the version pinned in `package.json`. Use `bun run tdk:project` to initialize project config, `bun run tdk:dry-run` to preview startup, or `bun run tdk:up -- <stack>` to start a stack. The global npm and standalone binary installation paths remain available.
