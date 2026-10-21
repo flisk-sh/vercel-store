@@ -10,7 +10,7 @@ Browse products, pick a size and color, add to your bag. No coding needed to sta
 Open Claude Code, Cursor, Codex or any coding agent in an empty folder and paste this:
 
 ```text
-Clone https://github.com/tdk-landscape/vercel-store and set it up for me.
+Clone https://github.com/flisk-sh/vercel-store and set it up for me.
 Install anything missing (Docker Desktop, Bun, Tilt, the TDK CLI) and tell me
 what to click. Then run `tdk up store` and give me the storefront link.
 ```
@@ -44,7 +44,7 @@ Green checks mean you are ready. Anything red tells you exactly what to fix.
 ### 2. Get the code
 
 ```bash
-git clone https://github.com/tdk-landscape/vercel-store.git
+git clone https://github.com/flisk-sh/vercel-store.git
 cd vercel-store
 cp .env.example .env
 ```
@@ -119,7 +119,7 @@ Still stuck? Open an issue on this repo, or ask your agent: *"run `tdk status` a
 
 ---
 
-Built with [TDK](https://github.com/tdk-landscape) · inspired by [tdk-thor-storefront](https://github.com/tdk-landscape/tdk-thor-storefront) · not affiliated with Vercel.
+Built with [TDK](https://github.com/flisk-sh) · inspired by [tdk-thor-storefront](https://github.com/flisk-sh/tdk-thor-storefront) · not affiliated with Vercel.
 
 ## Use the repository-pinned TDK CLI
 
