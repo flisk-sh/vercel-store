@@ -30,7 +30,7 @@ You need a Mac, Linux or WSL2 machine.
 | **Docker Desktop** | runs the containers | [docker.com/get-started](https://www.docker.com/get-started/) — open it once and wait for the whale icon to stop animating |
 | **Node.js 22+** | runs the TDK CLI | [nodejs.org](https://nodejs.org) |
 | **Tilt** | watches and restarts your services | `brew install tilt` |
-| **TDK CLI** | the landscape tool | `npm install -g @tdk-landscape/tdk-cli-core` |
+| **TDK CLI** | the landscape tool | `npm install -g @flisk-sh/flisk` |
 | **Bun** | fast JavaScript runtime (optional, only for the no-Docker mode) | `curl -fsSL https://bun.sh/install \| bash` |
 
 Check everything at once:
