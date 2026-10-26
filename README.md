@@ -11,8 +11,8 @@ Open Claude Code, Cursor, Codex or any coding agent in an empty folder and paste
 
 ```text
 Clone https://github.com/flisk-sh/vercel-store and set it up for me.
-Install anything missing (Docker Desktop, Bun, Tilt, the TDK CLI) and tell me
-what to click. Then run `tdk up store` and give me the storefront link.
+Install anything missing (Docker Desktop, Bun, Tilt, the Flisk CLI) and tell me
+what to click. Then run `flisk up store` and give me the storefront link.
 ```
 
 The agent does the rest. You only click where it asks you to.
@@ -28,15 +28,15 @@ You need a Mac, Linux or WSL2 machine.
 | Tool | Why | Install |
 | --- | --- | --- |
 | **Docker Desktop** | runs the containers | [docker.com/get-started](https://www.docker.com/get-started/) — open it once and wait for the whale icon to stop animating |
-| **Node.js 22+** | runs the TDK CLI | [nodejs.org](https://nodejs.org) |
+| **Node.js 22+** | runs the Flisk CLI | [nodejs.org](https://nodejs.org) |
 | **Tilt** | watches and restarts your services | `brew install tilt` |
-| **TDK CLI** | the landscape tool | `npm install -g @flisk-sh/flisk` |
+| **Flisk CLI** | the landscape tool | `npm install -g @flisk-sh/flisk` |
 | **Bun** | fast JavaScript runtime (optional, only for the no-Docker mode) | `curl -fsSL https://bun.sh/install \| bash` |
 
 Check everything at once:
 
 ```bash
-tdk doctor
+flisk doctor
 ```
 
 Green checks mean you are ready. Anything red tells you exactly what to fix.
@@ -52,7 +52,7 @@ cp .env.example .env
 ### 3. Start the shop
 
 ```bash
-tdk up store
+flisk up store
 ```
 
 Wait until both services show healthy (first run takes a few minutes; it is downloading the world 🌍).
@@ -67,7 +67,7 @@ Try the Black / 2XL tee directly:
 ### 5. Stop it
 
 ```bash
-tdk down
+flisk down
 ```
 
 ---
@@ -110,17 +110,17 @@ bun run test     # unit tests
 
 | You see | Try |
 | --- | --- |
-| `tdk: command not found` | reopen your terminal after installing the TDK CLI |
+| `tdk: command not found` | reopen your terminal after installing the Flisk CLI |
 | Docker error | open Docker Desktop and wait until it says "running" |
-| port already in use | another app uses it; stop that app or run `tdk down` first |
-| storefront shows a connection error | wait ~1 minute, then refresh; check `tdk status` |
+| port already in use | another app uses it; stop that app or run `flisk down` first |
+| storefront shows a connection error | wait ~1 minute, then refresh; check `flisk status` |
 
-Still stuck? Open an issue on this repo, or ask your agent: *"run `tdk status` and fix what is red."*
+Still stuck? Open an issue on this repo, or ask your agent: *"run `flisk status` and fix what is red."*
 
 ---
 
-Built with [TDK](https://github.com/flisk-sh) · inspired by [tdk-thor-storefront](https://github.com/flisk-sh/tdk-thor-storefront) · not affiliated with Vercel.
+Built with [Flisk](https://github.com/flisk-sh) · inspired by [tdk-thor-storefront](https://github.com/flisk-sh/flisk-thor-storefront) · not affiliated with Vercel.
 
-## Use the repository-pinned TDK CLI
+## Use the repository-pinned Flisk CLI
 
-> **Repository-pinned CLI (optional):** Run `bun install` from the repository root to install the version pinned in `package.json`. Use `bun run tdk:project` to initialize project config, `bun run tdk:dry-run` to preview startup, or `bun run tdk:up -- <stack>` to start a stack. The global npm and standalone binary installation paths remain available.
+> **Repository-pinned CLI (optional):** Run `bun install` from the repository root to install the version pinned in `package.json`. Use `bun run flisk:project` to initialize project config, `bun run flisk:dry-run` to preview startup, or `bun run flisk:up -- <stack>` to start a stack. The global npm and standalone binary installation paths remain available.
