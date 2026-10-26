@@ -110,7 +110,7 @@ bun run test     # unit tests
 
 | You see | Try |
 | --- | --- |
-| `tdk: command not found` | reopen your terminal after installing the Flisk CLI |
+| `flisk: command not found` | reopen your terminal after installing the Flisk CLI |
 | Docker error | open Docker Desktop and wait until it says "running" |
 | port already in use | another app uses it; stop that app or run `flisk down` first |
 | storefront shows a connection error | wait ~1 minute, then refresh; check `flisk status` |
@@ -119,7 +119,7 @@ Still stuck? Open an issue on this repo, or ask your agent: *"run `flisk status`
 
 ---
 
-Built with [Flisk](https://github.com/flisk-sh) · inspired by [tdk-thor-storefront](https://github.com/flisk-sh/flisk-thor-storefront) · not affiliated with Vercel.
+Built with [Flisk](https://github.com/flisk-sh) · inspired by [flisk-thor-storefront](https://github.com/flisk-sh/flisk-thor-storefront) · not affiliated with Vercel.
 
 ## Use the repository-pinned Flisk CLI
 

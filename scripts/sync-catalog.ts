@@ -7,7 +7,7 @@ const origin = process.env.VERCEL_STORE_ORIGIN || 'https://vercel.store';
 const out = join(import.meta.dir, '../services/store/vercel-bff/src/data/catalog.json');
 
 const text = async (url: string) => {
-  const res = await fetch(url, { headers: { 'user-agent': 'tdk-vercel-store-sync' } });
+  const res = await fetch(url, { headers: { 'user-agent': 'flisk-vercel-store-sync' } });
   if (!res.ok) throw new Error(`${url} -> ${res.status}`);
   return res.text();
 };
