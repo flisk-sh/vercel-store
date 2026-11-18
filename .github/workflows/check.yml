@@ -5,6 +5,17 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - name: Check that example settings are documented
+        shell: bash
+        run: |
+          missing=0
+          while IFS= read -r setting; do
+            if ! grep -Fq -- "\`$setting\`" README.md; then
+              printf 'README.md is missing %s\n' "$setting"
+              missing=1
+            fi
+          done < <(sed -nE 's/^([A-Za-z_][A-Za-z0-9_]*)=.*/\1/p' .env.example)
+          exit "$missing"
       - uses: oven-sh/setup-bun@v2
       - run: bun install --frozen-lockfile
       - run: bun run check
