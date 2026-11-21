@@ -72,6 +72,23 @@ flisk down
 
 ---
 
+## Settings
+
+All six variables are declared in `.env.example`. You only need to change them if your host names or ports differ.
+
+| Variable | Meaning | Default | Keep in sync |
+| --- | --- | --- | --- |
+| `VERCEL_STORE_ORIGIN` | Public storefront the catalog is synced from. | `https://vercel.store` | Nothing else; change it only to use a different catalog mirror. |
+| `STORE_FRONTEND_ORIGIN` | Public browser origin of the storefront, including a non-default port. | `http://app.vercel-store.localhost:8080` | Host/port used by your gateway and Traefik route. |
+| `STORE_BFF_ORIGIN` | Public browser origin of the API. | `http://api.vercel-store.localhost:8080` | Host/port of the BFF service and the storefront's API URL. |
+| `VITE_STORE_BFF_URL` | Optional build-time override for the API URL used by the Vue app. | empty (the app uses the current page origin plus `/api/vercel-bff`) | Set it to the same URL as `STORE_BFF_ORIGIN` if you override it, then rebuild the storefront. |
+| `FLISK_HTTP_PORT` | Host HTTP port for the local gateway. | `8080` | The `:8080` in both `STORE_FRONTEND_ORIGIN` and `STORE_BFF_ORIGIN`. |
+| `FLISK_HTTPS_PORT` | Host HTTPS port for the local gateway. | `8443` | Any HTTPS origins you configure in the gateway. |
+
+The no-Docker Bun mode uses its own `127.0.0.1:3350` / `127.0.0.1:4350` values in `scripts/dev-local.ts`; the table above describes the Docker/Tilt setup started with `flisk up store`.
+
+---
+
 ## 🏃 No Docker? Run it with Bun
 
 ```bash
