@@ -49,6 +49,21 @@ cd vercel-store
 cp .env.example .env
 ```
 
+#### Settings
+
+The defaults below come from `.env.example`. An origin includes the scheme, host, and any non-default port, with no path or trailing slash.
+
+| Setting | Default | When to change it |
+| --- | --- | --- |
+| `VERCEL_STORE_ORIGIN` | `https://vercel.store` | Change when catalog sync should use a different compatible storefront. The BFF also reports this store origin. |
+| `STORE_FRONTEND_ORIGIN` | `http://app.vercel-store.localhost:8080` | Match the address the browser uses for the shop. The API uses this origin for its CORS checks. |
+| `STORE_BFF_ORIGIN` | `http://api.vercel-store.localhost:8080` | Match the API's public origin in the proxy. |
+| `VITE_STORE_BFF_URL` | empty | Leave blank for the default API route inferred from the shop URL. Set a browser-reachable API base URL when the API uses a different host or route. Include the `/api/vercel-bff` prefix if the proxy serves the API there. |
+| `FLISK_HTTP_PORT` | `8080` | Set the Flisk proxy's host HTTP port. If you change it, update both `STORE_*_ORIGIN` values and any explicit `VITE_STORE_BFF_URL` that uses this port. |
+| `FLISK_HTTPS_PORT` | `8443` | Set the Flisk proxy's host HTTPS port. If you serve the shop over HTTPS, use that scheme and port in the public origin settings. |
+
+`bun run dev:local` sets its own local shop and API origins on ports 3350 and 4350. The Flisk proxy port settings apply to `flisk up`.
+
 ### 3. Start the shop
 
 ```bash
