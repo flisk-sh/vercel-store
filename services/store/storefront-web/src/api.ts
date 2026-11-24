@@ -15,9 +15,12 @@ export async function request<T>(path: string, body?: unknown, method = body ===
     if (signal?.aborted) throw e;
     throw new Error('The store connection is unavailable. Please try again shortly.');
   }
-  let payload: any;
-  try { payload = await response.json(); } catch { throw new Error('The store did not return a usable response. Check that the store service is running.'); }
-  if (!response.ok || payload.error) throw new Error(payload.error?.message || 'The store could not complete this request.');
+  const payload: unknown = await response.json().catch(() => null);
+  if (payload === null || typeof payload !== 'object' || Array.isArray(payload)) {
+    throw new Error('The store did not return a usable response. Check that the store service is running.');
+  }
+  const { error } = payload as { error?: { message?: string } };
+  if (!response.ok || error) throw new Error(error?.message || 'The store could not complete this request.');
   return payload as T;
 }
 export const formatMoney = (amount: number, currency = 'USD') => new Intl.NumberFormat('en-US', { style: 'currency', currency }).format(amount);
